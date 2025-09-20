@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 10px;
+    text-align: center;
+    transition: 0.4s;
+    color: black;
+}
+
+main{
+    padding: 10px 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #1c1e21;
+    background-color: transparent;
+    color: #1c1e21;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #1c1e21;
+    color: #ffff;
+}
+
+body.modo-escuro{
+    background-color: #000; /* pode usar #121212 (hexadecimal) também*/
+    color: #e4e6eb;
+}
+
+body.modo-escuro main{
+    background-color :#000;
+    box-shadow: 0 2px 4px rgba(255, 255, 255);
+
+}
+
+body.modo-escuro button{
+    border-color: #e4e6eb;
+    color: #e4e6eb;
+}
+
+body.modo-escuro button:hover{
+    background-color: #e4e6eb;
+    color: #000;
+}
